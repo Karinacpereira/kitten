@@ -1,5 +1,24 @@
-.image{
-  width: auto;
-  background-color: #cecece
+.background{
+  height: 620px;
+  background-image: url(assets/sunny-day.jpg);
+  background-repeat: no-repeat;
+  background-size: 950px;
 }
 
+@media screen and (max-width: 800px){
+  .background{
+    height: 640px;
+    background-image: url(assets/night.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .background{
+    height: 640px;
+    background-image: url(assets/dawn.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+  }
+}
